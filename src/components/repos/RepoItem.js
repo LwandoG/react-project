@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import RepoItem from './'
+//import RepoItem from './'
 
 const RepoItem = ({repo}) => {
     return (
         <div>
-            <h3><a href={repo.html_url}></a></h3>
+            <h3><a href={repo.html_url}>Repo</a></h3>
         </div>
     )
 }
